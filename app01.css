@@ -304,6 +304,21 @@ margin-top: 5rem;
   font-size: 1.5rem;
 }
 
+@media (max-width: 768px) {
+ html{
+  font-size: 50%;
+ }
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .cards1, .cards2, .cards3, .cards4 {
+    grid-column: 1/2; grid-row: auto;
+  }
+}
+
 .texttags:visited,.texttags:link{
   color: var(--sky);
+
 }
