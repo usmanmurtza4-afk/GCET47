@@ -29,7 +29,7 @@ a{
 
 /* ----------------------------MAIN-CONTAINER---------------------------- */
 .maincontainer{
-width: 90%;
+width: 95%;
 max-width: 1200px;
 border: 3px black solid;
 background-color: #f5f7fa;
@@ -96,7 +96,7 @@ margin-top: 5rem;
   background: #23467A;
   border: 3px var(--midnightblue) solid;
   border-radius: 1rem;
-  padding: 1rem 2.5rem;
+  padding: 1rem 2rem;
 
 }
 .btn-secondary{
@@ -105,7 +105,7 @@ margin-top: 5rem;
   border: 3px var(--midnightblue) solid;
   border-radius: 1rem;
   margin-right: 1rem;
-  padding: 1rem 2.5rem;
+  padding: 1rem 2rem;
 
 }
 
@@ -322,3 +322,4 @@ margin-top: 5rem;
   color: var(--sky);
 
 }
+
